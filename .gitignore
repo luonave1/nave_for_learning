@@ -1,0 +1,79 @@
+# ===== 操作系统 / 桌面垃圾 =====
+Thumbs.db
+Desktop.ini
+desktop.ini
+.DS_Store
+
+# ===== 编辑器 / IDE =====
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ===== Keil MDK / STM32 工程编译产物 =====
+*.uvguix.*
+Objects/
+Listings/
+DebugConfig/
+RTE/
+*.bak
+*.dep
+*.crf
+*.o
+*.d
+*.axf
+*.hex
+*.bin
+*.map
+*.htm
+*.lnp
+*.iex
+*.sct
+JLinkLog.txt
+JLinkSettings.ini
+
+# ===== C / C++ 编译产物 =====
+build/
+out/
+*.obj
+*.exe
+*.pdb
+*.ilk
+*.idb
+
+# ===== Python =====
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# ===== MATLAB =====
+slprj/
+*.asv
+*.m~
+*.autosave/
+
+# ===== Node.js =====
+node_modules/
+npm-debug.log*
+
+# ===== 大体积文件 / 归档（不适合放进 Git） =====
+*.zip
+*.7z
+*.rar
+*.iso
+*.vmdk
+*.vmem
+*.vmss
+*.scoreboard
+*.log
+
+# ===== 敏感信息：绝对不要提交 =====
+.env
+*.pem
+*.key
+id_rsa*
+id_ed25519*
+密钥.txt
